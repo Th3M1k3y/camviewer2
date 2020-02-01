@@ -1,0 +1,50 @@
+{
+	"layout": {
+		"top_left": {
+			"x1": 0,
+			"y1": 0,
+			"x2": 399,
+			"y2": 239
+		},
+		"top_right": {
+			"x1": 400,
+			"y1": 0,
+			"x2": 800,
+			"y2": 239
+		},
+		"bottom_left": {
+			"x1": 0,
+			"y1": 239,
+			"x2": 399,
+			"y2": 480
+		},
+		"bottom_right": {
+			"x1": 401,
+			"y1": 240,
+			"x2": 800,
+			"y2": 480
+		}
+	},
+	"content": {
+		"top_left": {
+			"name": "Terasse",
+			"type": "stream",
+			"source": "rtsp://192.168.1.2:7447/xxxxxx"
+		},
+		"top_right": {
+			"name": "Front door",
+			"type": "stream",
+			"source": "rtsp://192.168.1.2:7447/xxxxxx"
+		},
+		"bottom_left": {
+			"name": "Protect image",
+			"type": "image",
+			"source": "/home/pi/unifi/protect3.png"
+		},		
+		"bottom_right": {
+			"name": "USB Cam",
+			"type": "video",
+			"source": "/dev/video0"
+		}
+	}
+}
